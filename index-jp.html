@@ -1,1 +1,282 @@
 
+<!doctype html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>マッキーマスジド東京</title>
+  <meta name="description" content="マッキーマスジド東京 – 葛飾の中心に立つ信仰の架け橋。東京での礼拝、イスラームの学び、地域の集い。" />
+  <link rel="icon" href="logo.png" />
+  <link href="styles.css" rel="stylesheet">
+</head>
+<body>
+  <header>
+    <nav class="nav">
+      <a class="brand" href="#home" aria-label="マッキーマスジド東京">
+        <img src="logo.png" alt="マッキーマスジド東京 ロゴ"/>
+      </a>
+      <button class="menu-btn" aria-label="メニュー切替" onclick="document.querySelector('.nav ul').classList.toggle('show')">メニュー</button>
+      <ul>
+        <li><a href="#about">マスジドについて</a></li>
+        <li><a href="#times">礼拝時刻</a></li>
+        <li><a href="#programs">行事・活動</a></li>
+        <li><a href="#gakuin">マッキー学院</a></li>
+        <li><a href="#visit">ご来訪にあたって</a></li>
+        <li><a href="#donate">寄付</a></li>
+        <li><a href="#contact">お問い合わせ</a></li>
+        <li><a class="lang-switch" href="index.html" lang="en">English</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main id="home">
+    <section class="hero">
+      <div class="hero-inner">
+        <div>
+          <h1>マッキーマスジド東京</h1>
+          <p>葛飾の中心に立つ信仰の架け橋。礼拝、イスラームの学び、地域の集いを通じて、地域のムスリムコミュニティに奉仕するモスクです。</p>
+          <div class="cta">
+            <a class="btn primary" href="#donate">寄付する</a>
+            <a class="btn ghost" href="#times">礼拝時刻を見る</a>
+          </div>
+        </div>
+        <div class="card pad notice">
+          <h3 style="margin-top:0">お知らせ</h3>
+          <ul>
+            <li>毎日五つの礼拝が集団で執り行われています。毎週の礼拝時刻表をご確認ください。</li>
+            <li>ジュムア（金曜）礼拝は毎週行われています。座席確保のためお早めにお越しください。</li>
+            <li>ラマダン中は、イシャーの後のタラウィーフと、マグリブ時刻のイフタールを毎日行います。</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section id="about" class="about">
+      <div class="container grid-3">
+        <div class="card pad">
+          <h2>マスジドについて</h2>
+          <p>マッキーマスジド東京は、東京のムスリムの精神的・社会的ニーズに応えるために存在します。信仰を深め、コミュニティの絆を築き、礼拝と学びのための温かい場を提供することを目指しています。</p>
+        </div>
+        <div class="card pad">
+          <h3 style="margin-top:0">私たちについて</h3>
+          <p>マッキーマスジド東京は、以下の活動を行うコミュニティベースのモスクです：</p>
+          <ul>
+            <li>毎日五つの礼拝の執行</li>
+            <li>ジュムア（金曜）礼拝の開催</li>
+            <li>イスラーム講座や集会の開催</li>
+            <li>タブリーグ・ジャマーアト活動の支援</li>
+            <li>マッキーマスジド学院によるイスラーム教育の提供</li>
+          </ul>
+        </div>
+        <div class="card pad">
+          <h3 style="margin-top:0">所在地</h3>
+          <p>〒124-0011 東京都葛飾区四つ木5-22-14</p>
+          <p>お花茶屋駅（京成本線）から徒歩約11分</p>
+          <p>電話：+81-3-5670-7426</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="times" class="times">
+      <div class="container">
+        <h2>礼拝時刻</h2>
+        <div class="times-layout">
+          <div class="card pad widget-card">
+            <iframe id="h2gFrame" title="イスラーム暦" style="width: 100%; height: 312px; border: 0;" scrolling="no" src="https://www.islamicfinder.org/islamic-calendar/widgetGregorian?type=Hijri"> </iframe>
+          </div>
+          <div class="card pad widget-card">
+            <iframe src="https://www.islamicfinder.org/prayer-widget/" title="礼拝時刻 – 東京" style="width:100%; height:358px; border:0;" scrolling="no" loading="lazy"></iframe>
+          </div>
+        </div>
+        <div class="card pad ramadan">
+          <h3 style="margin-top:0">ラマダンのプログラム</h3>
+          <ul>
+            <li><strong>タラウィーフ：</strong>ラマダン中、毎晩イシャー礼拝の後に行われます。この月にクルアーン全編の朗誦を完了することを目指しています。</li>
+            <li><strong>ハトム・タラウィーフ：</strong>クルアーン完誦（ハトム）の日については事前にお知らせします。ドゥアーと感謝の特別な夜にぜひご参加ください。</li>
+            <li><strong>イフタール：</strong>毎日マグリブの時刻に用意されます。斎戒中の方はどなたでも、マスジドで共に斎戒を開くことができます。</li>
+            <li><strong>イドの礼拝：</strong>イド・アル＝フィトルとイド・アル＝アドハーの特別な集団礼拝が行われます。</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section id="programs" class="programs">
+      <div class="container grid-3">
+        <div class="card pad" style="grid-column: span 3;">
+          <h2>行事・活動</h2>
+          <p>私たちは自己啓発、家族の絆、コミュニティの結束を奨励しています。</p>
+        </div>
+        <div class="card pad">
+          <h3 style="margin-top:0">定期活動</h3>
+          <ul>
+            <li>毎日五つの礼拝</li>
+            <li>毎週のイスラーム講話</li>
+            <li>クルアーン朗誦会</li>
+            <li>タブリーグ・ジャマーアトの集まり</li>
+            <li>精神的研修（ジョル）プログラム</li>
+          </ul>
+        </div>
+        <div class="card pad">
+          <h3 style="margin-top:0">特別行事</h3>
+          <ul>
+            <li>ラマダンプログラム</li>
+            <li>イスラームセミナー</li>
+            <li>青少年・家族プログラム</li>
+            <li>年末の精神的集会</li>
+          </ul>
+        </div>
+        <div class="card pad">
+          <h3 style="margin-top:0">サービス</h3>
+          <ul>
+            <li>シャハーダ（信仰告白）— 支援と証明書の発行</li>
+            <li>結婚（ニカーフ）手続きのガイドライン</li>
+            <li>イスラーム講座とダルス</li>
+            <li>コミュニティ支援とカウンセリング</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section id="gakuin" class="gakuin">
+      <div class="container">
+        <h2>マッキー学院</h2>
+        <div class="card pad">
+          <div>
+            <p>マッキーマスジド学院は、マッキーマスジド東京の下で運営されているイスラーム教育機関です。日本で育つムスリムの子供たちに、体系的なイスラーム教育を提供しています。</p>
+            <p><strong>私たちの目標は、日本で自信を持って実践するムスリムの子供たちを育てることです。</strong></p>
+            <h3>重点分野</h3>
+            <ul>
+              <li>クルアーンの学習</li>
+              <li>イスラームの知識</li>
+              <li>アダブ（礼儀作法）</li>
+              <li>アフラーク（人格形成）</li>
+            </ul>
+            <h3>教育方針</h3>
+            <ul>
+              <li>年齢とレベルに応じたカリキュラム</li>
+              <li>資格を持つ経験豊富な教師</li>
+              <li>定期的な評価とフィードバック</li>
+              <li>保護者と教師の緊密な連携</li>
+            </ul>
+            <p>詳細：<a href="https://gakuin.makkimasjid.jp" target="_blank" rel="noopener">www.gakuin.makkimasjid.jp</a></p>
+          </div>
+          <div>
+            <h3>部門</h3>
+            <ul>
+              <li><strong>ヒフズ部：</strong>クルアーン全文の暗記、タジュウィードと復習システム</li>
+              <li><strong>ナジラ部：</strong>流暢なクルアーン朗誦、正しい発音とタジュウィード</li>
+              <li><strong>イスラーム研究：</strong>アキーダ（信仰）、フィクフ（イスラームの実践）、シーラ（預言者伝）、人格形成</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="visit" class="visit">
+      <div class="container">
+        <h2>ご来訪にあたって</h2>
+        <p class="intro">マッキーマスジド東京へようこそ。私たちはコミュニティの中央マルカズとして、礼拝、導き、団結の場として奉仕しています。礼拝者と近隣の日本の皆さまにとって調和のとれた環境を確保するため、すべてのご来訪者に以下のルールを守っていただくようお願いいたします。</p>
+        <div class="grid-3">
+          <div class="card pad">
+            <h3 style="margin-top:0">交通と駐車（厳守事項）</h3>
+            <ul>
+              <li><strong>敷地内の車の駐車は不可：</strong>マスジドには車の駐車場がまったくありません。</li>
+              <li><strong>コインパーキングの利用：</strong>車でお越しの場合は、近隣の商用「コインパーキング」をご利用ください。</li>
+              <li><strong>違法駐車の禁止：</strong>道路上、住宅の前、車庫の出入口を塞ぐ駐車はおやめください。違法駐車は警察への通報につながり、マスジドの評判を損ないます。</li>
+              <li><strong>近隣在住の方は徒歩で：</strong>お近くにお住まいの兄弟は、モスクまで徒歩でお越しください。限られた自転車置き場は、遠方からお越しの方のために残してください。</li>
+            </ul>
+          </div>
+          <div class="card pad">
+            <h3 style="margin-top:0">施設の利用</h3>
+            <ul>
+              <li><strong>礼拝スペース：</strong>毎日のサラーのために24時間開放されています。キブラの表示と清潔なウドゥー施設があります。</li>
+              <li><strong>女性用礼拝所：</strong>現在、この場所には女性用の施設がありません。地元の兄弟は、女性のご家族のために自宅でパルダーを整えた礼拝空間を提供することをお勧めします。</li>
+              <li><strong>訪問ジャマーアト：</strong>ここは東京マルカズであるため、他のモスクからお越しのジャマーアトは、滞在の調整とスペースの競合を避けるため、事前にご連絡ください。</li>
+            </ul>
+          </div>
+          <div class="card pad">
+            <h3 style="margin-top:0">エチケットと市民の責任</h3>
+            <ul>
+              <li><strong>静粛区域：</strong>マスジドに近づいたらすぐに声を落としてください。屋外での携帯電話での大きな通話は、近隣からの苦情につながります。</li>
+              <li><strong>歩道のマナー：</strong>礼拝の前後に入口にたむろしないでください。歩行者の通行を妨げないよう、速やかに立ち去ってください。</li>
+              <li><strong>清潔の維持：</strong>ポイ捨ては固く禁止されています。マスジドと周辺道路を清潔に保ってください。</li>
+              <li><strong>服装：</strong>控えめな服装でお越しください。礼拝堂に入る前に靴を脱ぎ、棚にきちんと置いてください。</li>
+            </ul>
+          </div>
+        </div>
+        <div class="card pad" style="margin-top:20px;">
+          <h3 style="margin-top:0">非ムスリムのお客様・初めてのご来訪者</h3>
+          <p>イスラームについて学びたい方を心より歓迎します。適切な歓迎と、サポートするコミュニティのメンバーを確保できるよう、ご来訪前に電話またはメールでご連絡いただき、日程をご調整ください。</p>
+          <p><em>注：マスジドでの皆さまの行動は、信仰と国の姿を映すものです。日本のホストの皆さまに、最良のイスラームの品格を示しましょう。</em></p>
+        </div>
+      </div>
+    </section>
+
+    <section id="donate" class="donate">
+      <div class="container">
+        <h2>マスジドを支援する</h2>
+        <p>皆さまのご寄付は、施設の維持、コミュニティプログラムの支援、東京のムスリムの皆さまへの奉仕に役立ちます。寄付は以下のために使われます：マスジドの維持、光熱費、教育教材、子供たちのイスラーム教育。</p>
+        <div class="bank-grid">
+          <div class="card pad">
+            <h3 style="margin-top:0">マスジド再建</h3>
+            <table class="bank">
+              <tr><th>銀行</th><td>楽天ティーアール（Rakuten TiR）</td></tr>
+              <tr><th>口座番号</th><td><strong>7619733</strong></td></tr>
+              <tr><th>口座名義</th><td>宗教法人 ダル・ウッサラーム葛飾支部</td></tr>
+              <tr><th>金融機関コード</th><td>0036</td></tr>
+              <tr><th>店番</th><td>254</td></tr>
+              <tr><th>預金種目</th><td>普通預金</td></tr>
+            </table>
+          </div>
+          <div class="card pad">
+            <h3 style="margin-top:0">マスジド維持</h3>
+            <table class="bank">
+              <tr><th>銀行</th><td>ゆうちょ銀行（JP Post Bank）</td></tr>
+              <tr><th>口座番号</th><td><strong>10400-10150371</strong></td></tr>
+              <tr><th>口座名義</th><td>ダルウッサラーム カツシカシブ</td></tr>
+              <tr><th>金融機関コード</th><td>9900</td></tr>
+              <tr><th>店番</th><td>048</td></tr>
+              <tr><th>預金種目</th><td>普通（または貯蓄）</td></tr>
+            </table>
+          </div>
+          <div class="card pad">
+            <h3 style="margin-top:0">マクタブ</h3>
+            <table class="bank">
+              <tr><th>支払い方法</th><td>PayPay</td></tr>
+              <tr><th>口座番号</th><td><strong>1209163</strong></td></tr>
+              <tr><th>口座名義</th><td>宗教法人 ダル・ウツサラームマッキ一学院様</td></tr>
+            </table>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact">
+      <div class="container grid-3">
+        <div class="card pad">
+          <h2>お問い合わせ</h2>
+          <p>マッキーマスジド東京</p>
+          <p>〒124-0011 東京都葛飾区四つ木5丁目22番14号</p>
+          <p>電話：+81-3-5670-7426</p>
+          <p>メール：info@makkimasjid.jp</p>
+          <p>ウェブサイト：www.makkimasjid.jp</p>
+          <p>マッキーマスジド学院：www.gakuin.makkimasjid.jp</p>
+        </div>
+        <div class="card pad" style="grid-column: span 2;">
+          <h3 style="margin-top:0">アクセス</h3>
+          <div style="position:relative; border-radius:14px; overflow:hidden; border:1px solid #e9edf7;">
+            <iframe src="https://www.google.com/maps?q=Makki+Masjid+Tokyo,+5-22-14+Yotsugi,+Katsushika,+Tokyo&output=embed" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <small>© <span id="year"></span> マッキーマスジド東京 全著作権所有。</small>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
+
