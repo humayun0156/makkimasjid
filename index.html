@@ -1,1 +1,281 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Makki Masjid Tokyo</title>
+  <meta name="description" content="Makki Masjid Tokyo – A bridge of faith in the heart of Katsushika. Prayer, Islamic learning, and community gatherings in Tokyo." />
+  <link rel="icon" href="logo.png" />
+  <link href="styles.css" rel="stylesheet">
+</head>
+<body>
+  <header>
+    <nav class="nav">
+      <a class="brand" href="#home" aria-label="Makki Masjid Tokyo">
+        <img src="logo.png" alt="Makki Masjid Tokyo Logo"/>
+      </a>
+      <button class="menu-btn" aria-label="Toggle navigation" onclick="document.querySelector('.nav ul').classList.toggle('show')">Menu</button>
+      <ul>
+        <li><a href="#about">About Us</a></li>
+        <li><a href="#times">Prayer Times</a></li>
+        <li><a href="#programs">Programs</a></li>
+        <li><a href="#gakuin">Makki Gakuin</a></li>
+        <li><a href="#visit">Visit</a></li>
+        <li><a href="#donate">Donate</a></li>
+        <li><a href="#contact">Contact</a></li>
+        <li><a class="lang-switch" href="index-jp.html" lang="ja">日本語</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main id="home">
+    <section class="hero">
+      <div class="hero-inner">
+        <div>
+          <h1>Makki Masjid Tokyo</h1>
+          <p>A bridge of faith in the heart of Katsushika. A community mosque dedicated to serving the local Muslim ummah with prayer, Islamic learning, and community gatherings.</p>
+          <div class="cta">
+            <a class="btn primary" href="#donate">Donate Now</a>
+            <a class="btn ghost" href="#times">See Prayer Times</a>
+          </div>
+        </div>
+        <div class="card pad notice">
+          <h3 style="margin-top:0">Announcements</h3>
+          <ul>
+            <li>Five daily prayers are held in congregation. Please check the weekly prayer schedule.</li>
+            <li>Jumu'ah (Friday) prayer is held every week — please arrive early for seating.</li>
+            <li>During Ramadan: Taraweeh after Isha and daily Iftar at Maghrib.</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section id="about" class="about">
+      <div class="container grid-3">
+        <div class="card pad">
+          <h2>About Us</h2>
+          <p>Makki Masjid Tokyo exists to serve the spiritual and social needs of Muslims in Tokyo. We strive to strengthen faith, build community bonds, and offer a welcoming place for worship and learning.</p>
+        </div>
+        <div class="card pad">
+          <h3 style="margin-top:0">Who We Are</h3>
+          <p>Makki Masjid Tokyo is a community-based mosque that:</p>
+          <ul>
+            <li>Conducts five daily prayers</li>
+            <li>Holds Friday (Jumu'ah) prayer</li>
+            <li>Organizes Islamic lectures and gatherings</li>
+            <li>Supports Tablighi Jamaat efforts</li>
+            <li>Provides Islamic education through Makki Masjid Gakuin</li>
+          </ul>
+        </div>
+        <div class="card pad">
+          <h3 style="margin-top:0">Location</h3>
+          <p>5-22-14 Yotsugi, Katsushika City, Tokyo 124-0011, Japan</p>
+          <p>About an 11-minute walk from Ohanajaya Station (Keisei Main Line).</p>
+          <p>Phone: +81-3-5670-7426</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="times" class="times">
+      <div class="container">
+        <h2>Prayer Times</h2>
+        <div class="times-layout">
+          <div class="card pad widget-card">
+            <iframe id="h2gFrame" title="islamic-calendar" style="width: 100%; height: 312px; border: 0;" scrolling="no" src="https://www.islamicfinder.org/islamic-calendar/widgetGregorian?type=Hijri"> </iframe>
+          </div>
+          <div class="card pad widget-card">
+            <iframe src="https://www.islamicfinder.org/prayer-widget/" title="Prayer times – Tokyo" style="width:100%; height:358px; border:0;" scrolling="no" loading="lazy"></iframe>
+          </div>
+        </div>
+        <div class="card pad ramadan">
+          <h3 style="margin-top:0">Ramadan Programs</h3>
+          <ul>
+            <li><strong>Taraweeh:</strong> Performed every night after Isha prayer throughout Ramadan. We aim to complete the recitation of the entire Qur'an during this month.</li>
+            <li><strong>Khatam Taraweeh:</strong> The completion (Khatam) of the Qur'an will be announced in advance — a special night of dua and gratitude.</li>
+            <li><strong>Iftar:</strong> Arranged daily at Maghrib time. All fasting individuals are welcome to break their fast together at the masjid.</li>
+            <li><strong>Eid Prayers:</strong> Special congregational prayers on Eid al-Fitr and Eid al-Adha.</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section id="programs" class="programs">
+      <div class="container grid-3">
+        <div class="card pad" style="grid-column: span 3;">
+          <h2>Programs &amp; Events</h2>
+          <p>We encourage self-development, family strength, and community bonding.</p>
+        </div>
+        <div class="card pad">
+          <h3 style="margin-top:0">Regular Activities</h3>
+          <ul>
+            <li>Five daily prayers</li>
+            <li>Weekly Islamic talks</li>
+            <li>Qur'an recitation sessions</li>
+            <li>Tablighi Jamaat gatherings</li>
+            <li>Spiritual retreats and Jor programs</li>
+          </ul>
+        </div>
+        <div class="card pad">
+          <h3 style="margin-top:0">Special Events</h3>
+          <ul>
+            <li>Ramadan programs</li>
+            <li>Islamic seminars</li>
+            <li>Youth and family programs</li>
+            <li>Year-end spiritual gatherings</li>
+          </ul>
+        </div>
+        <div class="card pad">
+          <h3 style="margin-top:0">Services</h3>
+          <ul>
+            <li>Shahada (Testimony of Faith) — support and certificates</li>
+            <li>Marriage (Nikah) facilitation guidelines</li>
+            <li>Islamic Classes &amp; Dars</li>
+            <li>Community Support &amp; Counseling</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section id="gakuin" class="gakuin">
+      <div class="container">
+        <h2>Makki Gakuin</h2>
+        <div class="card pad">
+          <div>
+            <p>Makki Masjid Gakuin is an Islamic learning institution operating under Makki Masjid Tokyo. It provides structured Islamic education for Muslim children growing up in Japan.</p>
+            <p><strong>Our goal is to raise confident and practicing Muslim children in Japan.</strong></p>
+            <h3>Our Focus</h3>
+            <ul>
+              <li>Qur'an learning</li>
+              <li>Islamic knowledge</li>
+              <li>Adab (manners)</li>
+              <li>Akhlaq (character building)</li>
+            </ul>
+            <h3>Educational Approach</h3>
+            <ul>
+              <li>Age and level-based curriculum</li>
+              <li>Qualified and experienced teachers</li>
+              <li>Regular assessments and feedback</li>
+              <li>Strong parent-teacher coordination</li>
+            </ul>
+            <p>Details: <a href="https://gakuin.makkimasjid.jp" target="_blank" rel="noopener">gakuin.makkimasjid.jp</a></p>
+          </div>
+          <div>
+            <h3>Divisions</h3>
+            <ul>
+              <li><strong>Hifz Division:</strong> Full Qur'an memorization, Tajweed and revision system</li>
+              <li><strong>Nazera Division:</strong> Fluent Qur'an recitation, correct pronunciation and Tajweed</li>
+              <li><strong>Islamic Studies:</strong> Aqidah (belief), Fiqh (Islamic practice), Sirah (Prophetic biography), character development</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="visit" class="visit">
+      <div class="container">
+        <h2>Visit &amp; Etiquette</h2>
+        <p class="intro">Welcome to Makki Masjid Tokyo. As the central Markaz for the community, we serve as a place of worship, guidance, and unity. To ensure a harmonious environment for our congregants and our Japanese neighbors, we ask all visitors to adhere to the following protocols.</p>
+        <div class="grid-3">
+          <div class="card pad">
+            <h3 style="margin-top:0">Transport &amp; Parking (Strict Policy)</h3>
+            <ul>
+              <li><strong>No on-site car parking:</strong> There is absolutely no parking available for cars at the Masjid.</li>
+              <li><strong>Use coin parking:</strong> If you must drive, please use nearby commercial "Coin Parking" lots.</li>
+              <li><strong>No illegal parking:</strong> Do not park on the street, in front of houses, or block driveways. Illegal parking leads to police complaints and damages the reputation of the Masjid.</li>
+              <li><strong>Priority for commuters:</strong> Brothers living nearby are requested to walk to the mosque. Please leave the limited bicycle spaces for those traveling from long distances.</li>
+            </ul>
+          </div>
+          <div class="card pad">
+            <h3 style="margin-top:0">Facility Usage</h3>
+            <ul>
+              <li><strong>Prayer space:</strong> Open 24 hours for daily Salah, with a clearly marked Qibla and clean Wudu facilities.</li>
+              <li><strong>Women's prayer area:</strong> We currently have no facilities for women at this location. We recommend that local brothers facilitate prayer spaces at home for their female family members with proper Parda.</li>
+              <li><strong>Visiting Jamats:</strong> As this is the Tokyo Markaz, all Jamats arriving from other mosques must contact us in advance to coordinate their stay and avoid space conflicts.</li>
+            </ul>
+          </div>
+          <div class="card pad">
+            <h3 style="margin-top:0">Etiquette &amp; Civic Responsibility</h3>
+            <ul>
+              <li><strong>Quiet zones:</strong> Lower your voice immediately upon approaching the Masjid. Do not speak loudly on mobile phones outside.</li>
+              <li><strong>Footpath etiquette:</strong> Do not gather or loiter at the entrance before or after prayers. Leave the area promptly so pedestrians have an uninterrupted footpath.</li>
+              <li><strong>Cleanliness:</strong> Littering is strictly prohibited. Please keep the Masjid and surrounding streets clean.</li>
+              <li><strong>Modesty:</strong> Dress modestly. Please remove shoes and place them neatly on the racks before entering the prayer hall.</li>
+            </ul>
+          </div>
+        </div>
+        <div class="card pad" style="margin-top:20px;">
+          <h3 style="margin-top:0">Non-Muslim Guests &amp; First-Time Visitors</h3>
+          <p>We warmly welcome those who wish to learn about Islam. To ensure we can provide you with a proper welcome and a member of the community to assist you, please contact us via phone or email beforehand to schedule your visit.</p>
+          <p><em>Note: Your conduct at the Masjid is a reflection of your faith and your country. Let us show the best of Islamic character to our Japanese hosts.</em></p>
+        </div>
+      </div>
+    </section>
+
+    <section id="donate" class="donate">
+      <div class="container">
+        <h2>Support the Masjid</h2>
+        <p>Your contributions help maintain the space, support community programs, and serve the Muslim population in Tokyo. Donations help with masjid maintenance, utility costs, educational materials, and children's Islamic education.</p>
+        <div class="bank-grid">
+          <div class="card pad">
+            <h3 style="margin-top:0">Masjid Reconstruction</h3>
+            <table class="bank">
+              <tr><th>Bank</th><td>Rakuten Bank</td></tr>
+              <tr><th>Account No（口座番号）</th><td><strong>7619733</strong></td></tr>
+              <tr><th>Account Name</th><td>宗教法人 ダル・ウッサラーム葛飾支部</td></tr>
+              <tr><th>Institution Code（金融機関コード）</th><td>0036</td></tr>
+              <tr><th>Store Number（店番）</th><td>254</td></tr>
+              <tr><th>Deposit Type（預金種目）</th><td>Regular deposit（普通預金）</td></tr>
+            </table>
+          </div>
+          <div class="card pad">
+            <h3 style="margin-top:0">Masjid Maintenance</h3>
+            <table class="bank">
+              <tr><th>Bank</th><td>JP Post Bank</td></tr>
+              <tr><th>Account No（口座番号）</th><td><strong>10400-10150371</strong></td></tr>
+              <tr><th>Account Name</th><td>ダルウッサラーム カツシカシブ</td></tr>
+              <tr><th>Institution Code（金融機関コード）</th><td>9900</td></tr>
+              <tr><th>Store Number（店番）</th><td>048</td></tr>
+              <tr><th>Deposit Type（預金種目）</th><td>Regular (Savings) 普通（または貯蓄）</td></tr>
+            </table>
+          </div>
+          <div class="card pad">
+            <h3 style="margin-top:0">Maktab</h3>
+            <table class="bank">
+              <tr><th>Payment</th><td>PayPay Bank</td></tr>
+              <tr><th>Account No（口座番号）</th><td><strong>1209163</strong></td></tr>
+              <tr><th>Account Name</th><td>宗教法人 ダル・ウツサラームマッキ一学院様</td></tr>
+            </table>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact">
+      <div class="container grid-3">
+        <div class="card pad">
+          <h2>Contact</h2>
+          <p>Makki Masjid Tokyo</p>
+          <p>5 Chome-22-14 Yotsugi, Katsushika City, Tokyo 124-0011</p>
+          <p>マッキーマスジド東京<br/>〒124-0011 東京都葛飾区四つ木５丁目２２−１４</p>
+          <p>Phone: +81-3-5670-7426</p>
+          <p>Email: <a href="mailto:makki.masjid.tokyo.japan@gmail.com">makki.masjid.tokyo.japan@gmail.com</a></p>
+          <p>Website: <a href="https://makkimasjid.jp" target="_blank" rel="noopener noreferrer">https://makkimasjid.jp</a></p>
+        </div>
+        <div class="card pad" style="grid-column: span 2;">
+          <h3 style="margin-top:0">Find Us</h3>
+          <div style="position:relative; border-radius:14px; overflow:hidden; border:1px solid #e9edf7;">
+            <iframe src="https://www.google.com/maps?q=Makki+Masjid+Tokyo,+5-22-14+Yotsugi,+Katsushika,+Tokyo&output=embed" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <small>© <span id="year"></span> Makki Masjid Tokyo. All rights reserved.</small>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
 
