@@ -28,7 +28,7 @@ main { min-height:60vh; }
 .hero { position:relative; background: #eaf0f8; }
 .hero::before {
   content:""; position:absolute; inset:0;
-  background-image:url('hero.jpg');
+  background-image:url('IMG_5017.jpeg');
   background-repeat:no-repeat;
   background-size:cover;
   background-position:center;
